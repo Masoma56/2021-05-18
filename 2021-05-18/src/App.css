@@ -1,0 +1,36 @@
+.countdown_wrapper { 
+  margin: auto;
+  width: 30rem;
+  background-color: #e9770c;
+}
+
+.countdown_top {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #f8570d;
+  padding: 1rem 1rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.countdown_bottom {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.countdown_tag {
+  text-align: center;
+  display: grid;
+  grid-column: 1/10;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+.countdown_time {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  padding: 1rem 2.2rem;
+}

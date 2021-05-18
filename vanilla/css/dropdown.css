@@ -1,0 +1,35 @@
+.dropdown-button {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-button:hover, .dropdown-button:focus {
+    background-color: blue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
